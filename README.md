@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -13,14 +13,33 @@
       background-size: cover;
       color: #c7c7c7;
     }
-
     header {
       background-color: rgba(23, 26, 33, 0.8);
       padding: 20px;
       text-align: center;
       color: #66c0f4;
     }
-
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    /* Navigation Bar */
+    header nav {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    header nav a {
+      text-decoration: none;
+      color: #66c0f4;
+      font-size: 1.1em;
+      transition: color 0.3s;
+    }
+    header nav a:hover {
+      color: #fff;
+    }
     .hero {
       display: flex;
       align-items: center;
@@ -31,28 +50,25 @@
       font-weight: bold;
       text-shadow: 2px 2px 4px #000;
     }
-
     .container {
       padding: 30px 20px;
-      max-width: 1000px;
+      max-width: 1200px;
       margin: 20px auto;
       background: rgba(26, 26, 26, 0.8);
       border-radius: 10px;
     }
-
+    /* Points Menu Section (original clickable list) */
     .points-menu {
       display: flex;
       flex-direction: column;
       gap: 15px;
       margin-bottom: 40px;
     }
-
     .point-item {
       background: rgba(42, 42, 42, 0.8);
       border-radius: 5px;
       padding: 15px 20px;
     }
-
     .point-link {
       text-decoration: none;
       color: #c7c7c7;
@@ -62,11 +78,9 @@
       padding-left: 10px;
       transition: background-color 0.3s;
     }
-
     .point-link:hover {
       background-color: rgba(51, 51, 51, 0.8);
     }
-
     .point-content {
       overflow: hidden;
       max-height: 0;
@@ -76,16 +90,13 @@
       padding-top: 15px;
       border-top: 1px solid #444;
     }
-
     .point-content.open {
-      max-height: 1000px; /* Use a high enough value to accommodate the content */
+      max-height: 1000px;
       opacity: 1;
     }
-
     .point-content h2 {
       color: #66c0f4;
     }
-
     footer {
       background-color: rgba(23, 26, 33, 0.8);
       text-align: center;
@@ -93,8 +104,7 @@
       color: #7f8c8d;
       font-size: 0.9em;
     }
-
-    /* Responsive Styles: Adjust layout for devices with a max-width of 600px */
+    /* Responsive Styles */
     @media (max-width: 600px) {
       .hero {
         font-size: 1.5em;
@@ -115,12 +125,22 @@
       header, footer {
         padding: 15px;
       }
+      header nav a {
+        font-size: 1em;
+      }
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Kesultanan Arsip</h1>
+    <!-- Navigation Bar -->
+    <nav>
+      <!-- Note the link now goes to profiles.html -->
+      <a href="profiles.html">Our Profiles</a>
+      <a href="#documentary">Documentary</a>
+      <a href="#instagram">Our Instagram Pages</a>
+    </nav>
   </header>
 
   <div class="hero">
@@ -128,14 +148,14 @@
   </div>
 
   <div class="container">
-    <!-- Clickable List with Inline Descriptions -->
+    <!-- Points Menu Section (your existing content) -->
     <div class="points-menu">
       <div class="point-item">
         <a class="point-link" href="#">1. Awal Berdirinya</a>
         <div class="point-content">
           <h2>Awal Berdirinya</h2>
           <p>
-            Kesultanan Arsip pertama di dirikan pada abad ke-21 oleh sekelompok orang.
+            Kesultanan Arsip pertama di dirikan pada abad ke-21 oleh sekelompok orang.<br>
             Pada awalnya dinamakan "Biologi nyehhh" sebelum diubah menjadi Arsip Soal setahun kemudian.
           </p>
         </div>
@@ -146,7 +166,7 @@
         <div class="point-content">
           <h2>Letak</h2>
           <p>
-            Kesultanan Arsip terletak di Kalasan, dengan ibu kota berada di depan F1.
+            Kesultanan Arsip terletak di Kalasan, dengan ibu kota berada di depan F1.<br>
             Pada awalnya ibukota kerajaan arsip berada di Rumah Ana sebelum dipindahkan ke depan F1.
           </p>
         </div>
@@ -163,7 +183,7 @@
           </p>
           <h3>Astrid</h3>
           <p>
-            Dia adalah tokoh yang berperan penting dalam projek pertama kerajaan, yaitu projek "Kimchi Radiasi".
+            Dia adalah tokoh yang berperan penting dalam projek pertama kerajaan, yaitu projek "Kimchi Radiasi."
           </p>
           <h3>Atha</h3>
           <p>
@@ -183,7 +203,7 @@
           </p>
           <h3>Akmal</h3>
           <p>
-            Awalnya dia bukanlah warga Kesultanan, namun dia diterima atas request istimewa dari pendiri-pendiri arsip.
+            Awalnya dia bukanlah warga Kesultanan, namun dia diterima atas request istimewa dari pendiri-pendiri arsip.<br>
             Bersama dengan Atha, dia telah membawa budaya India kepada Kesultanan Arsip.
           </p>
         </div>
@@ -193,9 +213,7 @@
         <a class="point-link" href="#">4. Politik</a>
         <div class="point-content">
           <h2>Politik</h2>
-          <p>
-            apa lek
-          </p>
+          <p>apa lek</p>
         </div>
       </div>
       
@@ -203,9 +221,7 @@
         <a class="point-link" href="#">5. Ekonomi</a>
         <div class="point-content">
           <h2>Ekonomi</h2>
-          <p>
-            Kita kaya
-          </p>
+          <p>Kita kaya</p>
         </div>
       </div>
       
@@ -213,9 +229,7 @@
         <a class="point-link" href="#">6. Budaya</a>
         <div class="point-content">
           <h2>Budaya</h2>
-          <p>
-            Stress semua lek
-          </p>
+          <p>Stress semua lek</p>
         </div>
       </div>
       
@@ -227,18 +241,19 @@
           <img src="https://files.catbox.moe/yifsiu.jpg" alt="Bukti Sejarah" style="width: 100%; border-radius: 5px;">
         </div>
       </div>
-      
     </div>
+    
+   
   </div>
-
+  
   <footer>
-    &copy; 2025 Explore Arsip coy | IJIIIJIJIJ 
+    &copy; 2025 Explore Arsip coy | IJIIIJIJIJ
   </footer>
-
+  
   <script>
+    // Toggle script for the points-menu sections
     document.addEventListener("DOMContentLoaded", function() {
       const links = document.querySelectorAll(".point-link");
-      
       links.forEach(link => {
         link.addEventListener("click", function(e) {
           e.preventDefault();
@@ -250,3 +265,5 @@
   </script>
 </body>
 </html>
+
+
