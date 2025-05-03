@@ -154,12 +154,12 @@
         <a class="point-link" href="#">1. Awal Berdirinya</a>
         <div class="point-content">
           <h2>Awal Berdirinya</h2>
-          <p>
+          
             Kesultanan Arsip pertama di dirikan pada abad
             ke-21 oleh sekelompok orang.<br>
             Pada awalnya dinamakan "Biologi nyehhh"
             sebelum diubah menjadi Arsip Soal setahun kemudian.
-          </p>
+          
         </div>
       </div>
       
@@ -167,12 +167,12 @@
         <a class="point-link" href="#">2. Letak</a>
         <div class="point-content">
           <h2>Letak</h2>
-          <p>
+          
             Kesultanan Arsip terletak di Kalasan, dengan
             ibu kota berada di depan F1.<br>
             Pada awalnya ibukota kerajaan arsip berada di 
             Rumah Ana sebelum dipindahkan ke depan F1.
-          </p>
+          
         </div>
       </div>
       
@@ -181,47 +181,47 @@
         <div class="point-content">
           <h2>Tokoh</h2>
           <h3>Septiana</h3>
-          <p>
+          
             Dia adalah salah satu tokoh penting yang mengide 
             untuk membuat Kesultanan Arsip, dengan rumahnya
             menjadi ibu kota awal kesultanan Arsip.
-          </p>
+          
           <h3>Astrid</h3>
-          <p>
+          
             Dia adalah tokoh yang berperan penting dalam projek 
             pertama kerajaan, yaitu projek "Kimchi Radiasi."
-          </p>
+          
           <h3>Atha</h3>
-          <p>
+          
             Dia merupakan tokoh yang berperan penting terhadap 
             kebudayaan Arsip dikarenakan jiwa seninya yang begitu 
             hebatnya.
-          </p>
+          
           <h3>Hardana</h3>
-          <p>
+          
             Juga dikenal sebagai Lidya, dia adalah tokoh penting 
             yang berperan dalam proses penyusunan Kesultanan Arsip 
             bersama Septiana.
-          </p>
+          
           <h3>Affan</h3>
-          <p>
+          
             Tidak banyak yang diketahui tentang tokoh ini karena 
             jarang kehadirannya, namun dia adalah satu-satunya tokoh
             yang normal, membuat Kerajaan Arsip kokoh.
-          </p>
+          
           <h3>Raju</h3>
-          <p>
+          
             Juga dikenal sebagai Rafi', dia adalah supplier utama dan
             pemilik markas rahasia bernama "Muara Salju" yang
             digunakan untuk eksperimen Arsip seperti Projek Kimchi Radiasi.
-          </p>
+          
           <h3>Akmal</h3>
-          <p>
+          
             Awalnya dia bukanlah warga Kesultanan, namun dia diterima
             atas request istimewa dari pendiri-pendiri arsip.<br>
             Bersama dengan Atha, dia telah membawa budaya India kepada
             Kesultanan Arsip.
-          </p>
+          
         </div>
       </div>
       
