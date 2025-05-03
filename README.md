@@ -238,7 +238,7 @@
         <div class="point-content">
           <h2>Bukti Sejarah</h2>
           <p></p>
-          <img src="https://files.catbox.moe/yifsiu.jpg" width="500" height="500"  alt="Bukti Sejarah" style="width: 100%; border-radius: 5px;">
+          <img src="https://files.catbox.moe/yifsiu.jpg" alt="Bukti Sejarah" style="width: 500px; height:"500px"; border-radius: 5px;">
         </div>
       </div>
     </div>
