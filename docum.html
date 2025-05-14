@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Documentaries Archive</title>
+  <style>
+    /* Global Styles */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://files.catbox.moe/k149m3.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #c7c7c7;
+    }
+    header {
+      background-color: rgba(23, 26, 33, 0.8);
+      padding: 20px;
+      text-align: center;
+      color: #66c0f4;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    header nav {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    header nav a {
+      text-decoration: none;
+      color: #66c0f4;
+      font-size: 1.1em;
+      transition: color 0.3s;
+    }
+    header nav a:hover {
+      color: #fff;
+    }
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 300px;
+      background: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      font-size: 2em;
+      font-weight: bold;
+    }
+    .container {
+      padding: 30px 20px;
+      max-width: 1200px;
+      margin: 20px auto;
+      background: rgba(26, 26, 26, 0.8);
+      border-radius: 10px;
+    }
+    /* Documentary Grid Styles */
+    .documentary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .documentary-item {
+      background: rgba(42, 42, 42, 0.8);
+      border-radius: 5px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .documentary-item:hover {
+      transform: scale(1.02);
+    }
+    .documentary-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .documentary-content {
+      padding: 15px;
+    }
+    .documentary-content h2 {
+      color: #66c0f4;
+      margin-top: 0;
+    }
+    .documentary-content p {
+      margin: 10px 0;
+    }
+    footer {
+      background-color: rgba(23, 26, 33, 0.8);
+      text-align: center;
+      padding: 20px;
+      color: #7f8c8d;
+      font-size: 0.9em;
+    }
+    /* Responsive Styles */
+    @media (max-width: 600px) {
+      .hero {
+        font-size: 1.5em;
+        height: 200px;
+      }
+      .container {
+        padding: 15px 10px;
+        margin: 10px;
+      }
+      header, footer {
+        padding: 15px;
+      }
+      header nav a {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Documentaries Archive</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="profiles.html">Profiles</a>
+      <a href="documentaries.html">Documentaries</a>
+    </nav>
+  </header>
+  
+  <div class="hero">
+    Dokumentari kelakuan 7 orang sinting
+  </div>
+  
+  <div class="container">
+    <div class="documentary-grid">
+      <div class="documentary-item">
+        <div class="documentary-image">
+          <img src="https://via.placeholder.com/300x200?text=Documentary+1" alt="Documentary 1">
+        </div>
+        <div class="documentary-content">
+          <h2>Documentary Title 1</h2>
+          <p>ini kita ngapain njir</p>
+        </div>
+      </div>
+      
+      <div class="documentary-item">
+        <div class="documentary-image">
+          <img src="https://via.placeholder.com/300x200?text=Documentary+2" alt="Documentary 2">
+        </div>
+        <div class="documentary-content">
+          <h2>Documentary Title 2</h2>
+          <p>ini kita ngapain/p>
+        </div>
+      </div>
+      
+      <div class="documentary-item">
+        <div class="documentary-image">
+          <img src="https://via.placeholder.com/300x200?text=Documentary+3" alt="Documentary 3">
+        </div>
+        <div class="documentary-content">
+          <h2>Documentary Title 3</h2>
+          <p>ini kita ngapain</p>
+        </div>
+      </div>
+      
+      <div class="documentary-item">
+        <div class="documentary-image">
+          <img src="https://via.placeholder.com/300x200?text=Documentary+4" alt="Documentary 4">
+        </div>
+        <div class="documentary-content">
+          <h2>Documentary Title 4</h2>
+          <p>ini kita ngapain</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    &copy; 2025 Documentaries Archive | Explore the truth behind history.
+  </footer>
+</body>
+</html>
