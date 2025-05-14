@@ -138,7 +138,7 @@
     <nav>
       <!-- Note the link now goes to profiles.html -->
       <a href="profiles.html">Our Profiles</a>
-      <a href="#documentary">Documentary</a>
+      <a href="docum.html">Documentary</a>
       <a href="#instagram">Our Instagram Pages</a>
     </nav>
   </header>
